@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Monika B — Computer Science undergraduate and aspiring software developer. Portfolio featuring Java, Python, React, Node.js, MySQL, MongoDB and software projects.">
+  <meta name="keywords" content="Monika B, Computer Science, Java Developer, Full Stack Developer, Web Developer, React, Node.js, Python, Portfolio">
+  <meta name="author" content="Monika B">
+  <meta name="theme-color" content="#0b1020">
+  <meta property="og:title" content="Monika B | Software Developer Portfolio">
+  <meta property="og:description" content="Computer Science undergraduate building practical software solutions with Java, Python and web technologies.">
+  <meta property="og:type" content="website">
+  <title>Monika B | Software Developer Portfolio</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Monika B home">MB<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Achievements</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode">☀︎</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">COMPUTER SCIENCE • SOFTWARE DEVELOPMENT</p>
+          <h1>Hi, I'm <span>Monika B.</span><br>Software Developer in progress.</h1>
+          <p class="hero-text">Computer Science undergraduate focused on building practical, user-friendly software with Java, Python and modern web technologies.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects <span>↗</span></a>
+            <a class="btn btn-secondary" href="public/Monika_B_Resume.pdf" download>Download Resume ↓</a>
+          </div>
+          <div class="social-row" aria-label="Social profiles">
+            <a href="https://www.linkedin.com/in/monika-boopalan-a8025839a-boopalan-a8025839a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/Monika18Boopalan" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://leetcode.com/u/monika" target="_blank" rel="noopener noreferrer">LeetCode</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal" aria-label="Profile summary">
+          <div class="orb"></div>
+          <div class="code-card">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <pre><code><span class="kw">const</span> developer = {
+  name: <span class="str">"Monika B"</span>,
+  focus: <span class="str">"Full-Stack"</span>,
+  stack: [
+    <span class="str">"Java"</span>,
+    <span class="str">"Python"</span>,
+    <span class="str">"React"</span>,
+    <span class="str">"Node.js"</span>
+  ],
+  mindset: <span class="str">"Build. Learn. Improve."</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Building with curiosity,<br><span>solving with purpose.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>I'm a Computer Science undergraduate at Kongu Engineering College with a strong foundation in Java, Python, C++ and web development.</p>
+            <p>I enjoy turning requirements into practical applications, learning new technologies and improving my problem-solving skills through hands-on projects and coding challenges.</p>
+            <p>My current interests include software development, web development, Salesforce development and building clean, reliable user experiences.</p>
+          </div>
+          <div class="stats-grid reveal">
+            <div class="stat"><strong>7.42</strong><span>CGPA / 10</span></div>
+            <div class="stat"><strong>2</strong><span>Featured Projects</span></div>
+            <div class="stat"><strong>2×</strong><span>Competition Prizes</span></div>
+            <div class="stat"><strong>2028</strong><span>Expected Graduation</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / SKILLS</p>
+          <h2>My technical <span>toolkit.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-panel reveal">
+            <h3>Languages</h3>
+            <div class="skill"><div><span>Java</span><b>85%</b></div><div class="bar"><i style="--value:85%"></i></div></div>
+            <div class="skill"><div><span>Python</span><b>80%</b></div><div class="bar"><i style="--value:80%"></i></div></div>
+            <div class="skill"><div><span>C++</span><b>70%</b></div><div class="bar"><i style="--value:70%"></i></div></div>
+          </article>
+          <article class="skill-panel reveal">
+            <h3>Frameworks & Web</h3>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Node.js</span></div>
+          </article>
+          <article class="skill-panel reveal">
+            <h3>Databases & Tools</h3>
+            <div class="chips"><span>MySQL</span><span>MongoDB</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>API</span></div>
+          </article>
+          <article class="skill-panel reveal">
+            <h3>Professional Skills</h3>
+            <div class="chips"><span>Problem Solving</span><span>Continuous Learning</span><span>Teamwork</span><span>Adaptability</span><span>Communication</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / PROJECTS</p>
+          <h2>Selected work that <span>solves problems.</span></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-top"><span class="project-type">WEB APPLICATION</span><span>↗</span></div>
+            <h3>Online Ticket Booking System</h3>
+            <p class="problem"><strong>Problem:</strong> Booking across entertainment and travel categories can be fragmented and difficult to manage.</p>
+            <p>Developed a web-based ticket booking platform for concerts, movies and flights with authentication, search, seat selection and secure booking workflows.</p>
+            <ul class="project-bullets">
+              <li>Added booking history, e-ticket generation and cancellation.</li>
+              <li>Structured the application around a straightforward user booking journey.</li>
+              <li>Worked across frontend, backend/API and database technologies.</li>
+            </ul>
+            <div class="tags"><span>Java</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Monika18Boopalan" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="#contact">Demo on request ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <div class="project-top"><span class="project-type">JAVA APPLICATION</span><span>↗</span></div>
+            <h3>Patient Appointment Booking System</h3>
+            <p class="problem"><strong>Problem:</strong> Patient appointment workflows require simple registration, scheduling and update operations.</p>
+            <p>Built a console-based Java application for managing patient registrations and appointments with create, view, update and cancellation functionality.</p>
+            <ul class="project-bullets">
+              <li>Applied classes, objects, inheritance and encapsulation.</li>
+              <li>Designed the flow around common appointment management tasks.</li>
+              <li>Focused on clear object-oriented program structure.</li>
+            </ul>
+            <div class="tags"><span>Java</span><span>OOP</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Monika18Boopalan" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="#contact">Details on request ↗</a>
+            </div>
+          </article>
+        </div>
+        <p class="note reveal">GitHub buttons point to Monika's current profile. Add project-specific repositories and live deployments when available.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <div class="container narrow">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / EXPERIENCE</p>
+          <h2>Experience & <span>leadership.</span></h2>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div><span class="date">2025</span><h3>Hackathon Participant / Achiever</h3><h4>BIT Hackathon · Bannari Amman Institute of Technology</h4><p>Secured 3rd Prize, demonstrating practical problem-solving and the ability to work toward a working solution in a competitive environment.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div><span class="date">2026</span><h3>Coding Competition Participant / Achiever</h3><h4>CodeAdapt · Kongu Engineering College</h4><p>Secured 3rd Prize in a coding competition, reflecting continued practice in programming and problem solving.</p></div>
+          </div>
+        </div>
+        <p class="note reveal">The supplied resume does not list formal employment or internship experience, so this section highlights documented competition experience rather than inventing employment history.</p>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">05 / EDUCATION</p>
+          <h2>Academic <span>foundation.</span></h2>
+        </div>
+        <div class="education-list">
+          <article class="edu-card reveal"><span class="edu-year">2024–2028</span><div><h3>Bachelor of Engineering in Computer Science</h3><p>Kongu Engineering College, Erode</p><strong>CGPA: 7.42 / 10</strong></div></article>
+          <article class="edu-card reveal"><span class="edu-year">2023–2024</span><div><h3>Higher Secondary</h3><p>Kalaimagal Kalvi Nilayam Girls’ Higher Secondary School, Erode</p><strong>Percentage: 78.1%</strong></div></article>
+          <article class="edu-card reveal"><span class="edu-year">2021–2022</span><div><h3>Class X</h3><p>Kalaimagal Kalvi Nilayam Girls’ Higher Secondary School, Erode</p><strong>Percentage: 82.6%</strong></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="certifications">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">06 / ACHIEVEMENTS</p>
+          <h2>Proof of <span>performance.</span></h2>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement reveal"><span>🏆</span><div><h3>3rd Prize — BIT Hackathon 2025</h3><p>Bannari Amman Institute of Technology</p></div></article>
+          <article class="achievement reveal"><span>🥉</span><div><h3>3rd Prize — CodeAdapt Coding Competition</h3><p>Kongu Engineering College</p></div></article>
+        </div>
+        <div class="languages reveal"><span>Languages</span><b>English</b><b>Tamil</b></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">07 / CONTACT</p>
+          <h2>Let's build something <span>useful.</span></h2>
+          <p>Open to internship opportunities and software development roles where I can contribute, learn and grow.</p>
+          <div class="contact-list">
+            <a href="mailto:monikaboopalan24@gmail.com">monikaboopalan24@gmail.com</a>
+            <a href="tel:+917305012109">+91 73050 12109</a>
+            <a href="https://www.linkedin.com/in/monika-boopalan-a8025839a-boopalan-a8025839a" target="_blank" rel="noopener noreferrer">linkedin.com/in/monika-boopalan-a8025839a</a>
+            <a href="https://github.com/Monika18Boopalan" target="_blank" rel="noopener noreferrer">github.com/Monika18Boopalan</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name">
+          <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+          <label for="message">Message</label><textarea id="message" name="message" rows="5" required placeholder="Tell me about the opportunity..."></textarea>
+          <button class="btn btn-primary" type="submit">Send Message ↗</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><span>© <span id="year"></span> Monika B.</span><span>Designed & built with HTML, CSS & JavaScript.</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <button class="top-btn" id="topBtn" aria-label="Scroll to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
